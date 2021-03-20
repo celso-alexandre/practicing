@@ -21,6 +21,8 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'react/destructuring-assignment': 'off',
+    'arrow-body-style': ['error', 'always'],
     'react/react-in-jsx-scope': 'off',
     'no-new': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
